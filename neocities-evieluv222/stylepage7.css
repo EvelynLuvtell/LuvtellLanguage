@@ -1,0 +1,101 @@
+body{
+  background-image:url('images/mood/has.png');
+margin:0px;
+border: 20px solid transparent;
+   padding:0px;
+
+   border-image:url('images/mood/hgf.png') 15 round;
+
+
+  
+}
+@font-face{
+  font-family: "1font";
+  src: url('fonts/Astrology tfb.ttf');
+}
+.natalchart{
+  text-align: center;
+ 
+}
+.p4{ 
+
+  font-size: 20px;
+ font-family: "apple chancery",cursive;
+  color: white;
+  text-align: center;
+ filter:invert(100%);
+  text-shadow:
+    3px 1px 2px black,
+    0 0 1em #00FF7F,
+    0 0 0.2em #00FF7F;
+        
+     background-image:url('images/background/screen.png');
+ background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%; 
+  margin-left: 20vw;
+  margin-right: 20vw;
+    
+}
+.containerrr{
+  filter:invert(100%);
+}
+.bgimg11{
+  background-image:url('images/gallery/hggg.jpg');
+ font-size: 25px;
+ font-family: "courier", monospace;
+  color: #00FF2F;
+        text-shadow:
+    1px 1px 2px black,
+    0 0 1em #00FFF7,
+    0 0 0.2em #00FFF7;
+     text-align: center;
+     margin-left: 40vw;
+  margin-right: 40vw;
+  filter: blur(.25px);
+ 
+}
+.imgContainer{
+  
+     font-size: 20px;
+ font-family: "courier new", monospace;
+  color: #00FF7F;
+       
+   
+  display: none;
+  position: relative; text-align:center;
+     
+
+        text-shadow:
+    3px 1px 2px white,
+    0 0 1em #00FF7F,
+    0 0 0.2em #00FF7F;
+     
+}
+.imgContainer2{
+    
+     font-size: 20px;
+ font-family: "courier new", monospace;
+  color: #00FF7F;
+       
+  display: none;
+  position: relative; text-align:center;
+    
+     
+
+        text-shadow:
+    3px 1px 2px white,
+    0 0 1em #00FF7F,
+    0 0 0.2em #00FF7F;
+     
+}
+
+.p6{ font-family: "1font";
+color: white;
+font-size: 35px;
+text-align: center;
+text-shadow:
+    3px 1px 2px black,
+    0 0 1em magenta,
+    0 0 0.2em magenta;
+}

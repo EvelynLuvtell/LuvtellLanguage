@@ -1,0 +1,230 @@
+body{
+  background-image:url('images/utube/blee.jpg');
+  background-size: 100% 100%;
+}
+.header{
+  text-align:center;
+  font-size: 50px;
+  font-family: "papyrus", Fantasy;
+  background-image: url('images/utube/alien2.jpg');
+  background-size: 100% 100%;
+  color:black;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em aliceblue,
+    0 0 0.2em aliceblue;
+animation: scale_shift1 2s 0s linear infinite;
+}
+@keyframes scale_shift1 {
+  0% {transform: scale(.8,.9); }
+  
+  50% {transform: scale(1.1,1.2);}
+  
+  100% {transform: scale(.8,.9);}}
+.gallery2{
+  display: flex;
+   background-image:url('images/background/caution.png');
+  text-align:center;
+ flex-wrap: wrap;
+  justify-content: flex-start;
+
+ 
+}
+
+.gallery-item2 {
+  margin: 0px;
+ border: 1px solid #ccc;
+  width: 180px;
+  color: #FDF5E6;
+  text-align:center;
+  
+}
+
+
+
+
+.gallery-item2 img {
+  width: 100%;
+  height: auto;
+  color: #FDF5E6;
+  text-align:center;
+
+}
+
+.gallery-item2 {
+  padding: 15px;
+  text-align: center;
+  color: #FDF5E6;
+}
+.gallery2{
+  display: flex;
+   
+  text-align:center;
+ flex-wrap: wrap;
+  justify-content: flex-start;
+
+ 
+}
+
+.gallery-item2 {
+  margin: 0px;
+ border: 1px solid #ccc;
+  width: 180px;
+  color: #FDF5E6;
+  text-align:center;
+  
+}
+
+
+
+
+.gallery-item2 img {
+  width: 100%;
+  height: auto;
+  color: #FDF5E6;
+  text-align:center;
+
+}
+
+.gallery-item2 {
+  padding: 15px;
+  text-align: center;
+  color: #FDF5E6;
+}
+
+
+.containerrr{
+  filter:invert(100%);
+    text-align:center;
+  background-image:url("images/banner/banner.png");
+  background-repeat: repeat;
+}
+.desc2{
+  background-image:url('images/background/as.jpg');
+  color:black;
+font-family:"Courier New" , monospace;
+}
+ .gallery {
+  text-align:center;
+  margin:0px;
+ 
+  color: black;
+  
+  background-image: url('images/banner/text4.png');
+  
+}
+
+.gallery-item {
+  margin: 0px;
+ border: 1px solid #ccc;
+  width: 180px;
+  color: black;
+}
+
+
+
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  color: black;
+
+}
+
+.gallery-item {
+  padding: 15px;
+  text-align: center;
+  color: black;}
+  .gallery {
+  display: flex;
+ flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align:center;
+  
+
+ 
+}
+.desc{ color:black;
+font-family:"Courier New" , monospace;
+background-image: url('images/background/salt.png');}
+
+
+.gallery3{
+  display: flex;
+   background-image:url('images/background/sun.png');
+  text-align:center;
+ flex-wrap: wrap;
+  justify-content: flex-start;
+
+ 
+}
+
+.gallery-item3 {
+  margin: 0px;
+ border: 1px solid #ccc;
+  width: 180px;
+  color: #FDF5E6;
+  text-align:center;
+  
+}
+
+
+
+
+.gallery-item3 img {
+  width: 100%;
+  height: auto;
+  color: #FDF5E6;
+  text-align:center;
+
+}
+
+.gallery-item3{
+  padding: 15px;
+  text-align: center;
+  color: #FDF5E6;
+}
+.gallery3{
+  display: flex;
+   
+  text-align:center;
+ flex-wrap: wrap;
+  justify-content: flex-start;
+
+ 
+}
+
+.gallery-item3 {
+  margin: 0px;
+ border: 1px solid #ccc;
+  width: 180px;
+  color: #FDF5E6;
+  text-align:center;
+  
+}
+
+
+
+
+.gallery-item3 img {
+  width: 100%;
+  height: auto;
+  color: #FDF5E6;
+  text-align:center;
+
+}
+
+.gallery-item3 {
+  padding: 15px;
+  text-align: center;
+  color: #FDF5E6;
+}
+.desc3{
+  background-image:url('images/gallery/demon2.jpg');
+  color:black;
+font-family:"Courier New" , monospace;
+filter:invert(100%);
+}
+
+
+

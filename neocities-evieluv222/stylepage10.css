@@ -1,0 +1,112 @@
+body{ 
+background-image:url('images/background/pop2.png');
+
+background-repeat: repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+ border: 32px solid transparent;
+border-image: url('images/mood/ji.png') 32 round;
+  
+ 
+}
+.yoyo{
+   transform:skew(4000deg,10deg);
+}
+.words{ font-size: 30px;
+color:black;
+text-shadow:
+    4px 5px 6px pink,
+    0 0 1em pink,
+    0 0 0.2em aliceblue;
+    font-family: "papyrus", fantasy;
+   position: absolute;
+   z-index:100;
+   top:0;
+   background-image:url('images/background/text.png');
+ 
+}
+.thefullthing{
+
+z-index: 15;
+  position: absolute;
+  flex-wrap: nowrap;
+  background-repeat: repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+ filter:invert(100%);
+
+
+
+  background-image:url('images/background/papa.png')
+  
+ 
+
+
+}
+.opaque{
+  background-repeat: no-repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+  filter:opacity(30%);}
+  
+.yo{
+border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('images/background/this.png') 50 round;
+  
+  filter:invert(100%);
+  
+  z-index: 15;
+  position: fixed;;
+  transform:skew(3000deg,100deg);
+}
+
+  
+
+.yo2{
+border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('images/gallery/pack.jpeg') 50 round;
+  transform: skew(50deg, 45deg);
+  flex-wrap:wrap;
+}
+.yoinside2{
+  transform: scale(1,.25);
+  filter:invert(100%);
+}
+.yo3{
+  transform: skew(30deg, 45deg);
+}
+.yo4{  transform: skew(67deg, 60deg);
+}
+.yo10{
+
+padding:1px;
+z-index:1;
+filter: opacity(50%);
+transform: scale(.75,.6);transform:skew(10deg, 70deg)}
+
+
+
+
+  .yoyoyo{ position:absolute;
+  top:300px;
+  left:50%;
+  filter:invert(100%);
+  z-index:0;
+  transform:skew(4000deg,10deg);
+  }
+  .yoyo10{ position:absolute;
+  top:700px;
+  left:10%;
+  filter:invert(100%);
+  z-index:0;
+  background-image:url('images/coverarts/imouttahere.jpg');
+  transform:skew(4000deg,10deg);
+  }
+  .thefullthing2{ 
+z-index: 25;
+    background-repeat: no-repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+  filter:invert(65%);}

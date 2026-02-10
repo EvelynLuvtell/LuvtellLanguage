@@ -1,0 +1,76 @@
+body{
+  background-image:url('images/utube/32.png');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.p4{
+
+  color:white;
+
+   text-shadow:
+    10px 6px 9px pink,
+    0 0 1em blue,
+    0 0 0.2em pink;
+    font-size:20px;
+    
+    font-family: "luminari",fantasy;
+    text-align:center;
+    
+
+    
+  }
+  
+.p5{
+ 
+  color: white;
+  font-family: "copperplate",fantasy;
+  
+
+   text-shadow:
+    1px 1px 1px black,
+    0 0 1em black,
+    0 0 0.2em pink;
+    background-image:url('images/utube/3.jpg');
+   background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+  
+}
+
+.theslabtag{
+  text-align:center;
+
+  color:white;
+  animation: scale_shift1 5s 0s linear infinite;
+}
+@keyframes scale_shift1 {
+  0% {transform: scale(1,1); }
+  
+  50% {transform: scale(.9,.8);}
+  
+  100% {transform: scale(1,1);}}
+  

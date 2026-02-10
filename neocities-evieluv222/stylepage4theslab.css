@@ -1,0 +1,46 @@
+
+
+body{
+  
+  margin:0px;
+border: 20px solid transparent;
+   padding:0px;
+
+   border-image:url('images/background/cast.png') 20 round;
+   background-image:url('images/background/expl.png');
+   
+  }
+@font-face{
+   font-family:"5thfont";
+ src:url('fonts/The Typewriter Hell.otf');}
+ 
+ @font-face{
+   font-family:"6thfont";
+ src: url('fonts/XTypewriterRegular.ttf');
+ }
+.slabheader{
+
+  color:black;
+
+font-family: "5thfont";
+text-align:center;
+text-shadow:
+    1px 1px 1px white,
+    0 0 1em white,
+    0 0 0.2em white;
+}
+
+.p20{color: white;
+  
+  font-family: "6thfont";
+
+background-image:url('images/gallery/simple.jpg');
+  
+      background-size: 100% 100%;
+      font-size:22px;
+      text-align:center;
+      text-shadow:
+    1px 1px 1px black,
+    0 0 1em white,
+    0 0 0.2em black;
+}

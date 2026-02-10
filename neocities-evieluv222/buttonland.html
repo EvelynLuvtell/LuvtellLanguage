@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>land</title>
+    <link href="stylepage12buttonland.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <div class ="buttoncontainer">
+  <button id= "thefuckerbutton" type = "button" class = "fuckerbutton"> </button>
+  </div>
+  <script>
+  let images = ["writing/post.png" , "writing/pill.png", "writing/disc.png"]
+
+  function CreateRandomImageElement (){
+  const img = document.createElement("img");
+  let randIndex = Math.floor(Math.random() * images.length);
+  if(randIndex < 0 || randIndex >= images.length) {
+    randIndex = 0;
+    console.log("something went awry, default image")
+  }
+  let imageSrc = images [randIndex];
+  img.src = imageSrc;
+  img.classList.add("fucker");
+  document.body.appendChild(img)
+  console.log("image created!");
+  return img;
+  }
+  function messWithRand(img){
+    let fucker = document.getElementsByClassName("fucker");
+  }
+  function translateAllFuckers(){
+  document.getElementByClassName ("fucker");
+  }
+  document.getElementById("thefuckerbutton").addEventListener('click', e =>{
+    let image = CreateRandomImageElement(); 
+    let randPerspective = Math.floor(Math.random() * 40);
+    image.style.perspective = randPerspective + "px";
+    });
+    
+  </script>
+  </body>
+</html>

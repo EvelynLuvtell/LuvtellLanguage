@@ -1,0 +1,17 @@
+body{
+ background-image: url('images/mood/love.png');
+ background-color: black;
+ 
+ 
+background-repeat: repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+  
+margin:0px;
+border: 20px solid transparent;
+   padding:0px;
+
+   border-image:url('images/gallery/moon and hand.png') 20 round;
+   filter: invert(100%);
+
+}

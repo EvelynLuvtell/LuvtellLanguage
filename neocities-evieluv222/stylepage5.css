@@ -1,0 +1,121 @@
+body{
+  background-image:url('images/background/as.jpg');
+  background-size: 100% 100%;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.sidenav a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.sidenav {
+  height: fit-content;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-image:url('images/gallery/22.jpg');
+  flex-wrap:nowrap;
+ 
+
+ 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+   font-family: "Lucida Handwriting", Cursive;
+    text-align:left;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+   
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 15px;
+  margin-left: 50px;
+  flex-wrap:nowrap;
+  text-align:right;
+  
+}
+
+@media screen and (max-height: 200px) {
+  .sidenav {padding-top: 200px;}
+  .sidenav a {font-size: 18px;}
+}
+h2 {
+ 
+  color:black;
+  font-size: 15px;
+     font-family: "Lucida Handwriting", Cursive;
+}
+
+  
+
+.p1{ 
+
+font-size: 13px;
+background-image:url('images/background/background1.png');
+color: black;
+     text-align: center;
+      background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  font-family: "courier", monospace;
+ 
+}

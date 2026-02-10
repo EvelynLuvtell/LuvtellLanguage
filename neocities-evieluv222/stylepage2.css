@@ -1,0 +1,130 @@
+body{
+  background-image:url('images/mood/sun ra.jpg');
+    background-size: 100% 100%;
+}
+.header1{
+  background-image:url('images/mood/prima.jpg');
+  text-align:center;
+  filter:invert(100%);
+}
+
+.gallery4{
+  display: flex;
+   background-image:url('images/mood/volume.jpg');
+  text-align:center;
+ flex-wrap: wrap;
+  justify-content: flex-start;
+
+ margin-right:400px;
+
+}
+
+.gallery-item4 {
+  margin: 0px;
+ border: 1px solid #ccc;
+  width: 180px;
+  color: #FDF5E6;
+  text-align:center;
+  
+}
+
+
+
+
+.gallery-item4 img {
+  width: 100%;
+  height: auto;
+  color: #FDF5E6;
+  text-align:center;
+
+}
+
+.gallery-item4{
+  padding: 15px;
+  text-align: center;
+  color: #FDF5E6;
+}
+.gallery4{
+  display: flex;
+   
+  text-align:center;
+ flex-wrap: wrap;
+  justify-content: flex-start;
+
+ 
+}
+
+.gallery-item4 {
+  margin: 0px;
+ border: 1px solid #ccc;
+  width: 180px;
+  color: #FDF5E6;
+  text-align:center;
+  
+}
+
+
+
+
+.gallery-item4 img {
+  width: 100%;
+  height: auto;
+  color: #FDF5E6;
+  text-align:center;
+
+}
+
+.gallery-item4 {
+  padding: 15px;
+  text-align: center;
+  color: #FDF5E6;
+}
+
+.desc4{
+  background-image:url('images/background/tie.png');
+  color:black;
+font-family:"Courier New" , monospace;
+
+}
+ .p8{ background-image:url("images/background/this.png");
+text-align:center;
+ color: white;
+
+}
+.p7{ background-image:url("images/background/this2.png");
+text-align:center;
+ color: white;
+
+}
+
+
+
+.p4{
+
+ font-size: 20px;
+ font-family: "apple chancery",cursive;
+  color: white;
+  text-align: center;
+ filter:invert(100%);
+  text-shadow:
+    3px 1px 2px black,
+    0 0 1em #00FF7F,
+    0 0 0.2em #00FF7F;
+        
+     background-image:url('images/background/screen.png');
+
+  
+    
+   
+      background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+animation: scale_shift1 5s 0s linear infinite;
+}
+@keyframes scale_shift1 {
+  0% {transform: scale(1,1); }
+  
+  50% {transform: scale(.9,.8);}
+  
+  100% {transform: scale(1,1);}}
+

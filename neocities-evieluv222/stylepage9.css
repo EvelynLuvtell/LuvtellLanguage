@@ -1,0 +1,251 @@
+body{ 
+background-image:url('images/background/fight night.png');
+
+background-repeat: repeat;
+
+  background-size: 100% 100%;
+  
+
+  animation: huerotate1 30s linear infinite;
+ 
+}
+
+@keyframes huerotate1 {0% { filter:hue-rotate(0deg) saturate(0%) brightness(0%)invert(0%);
+}
+10% { filter:hue-rotate(100deg) saturate(100%) brightness(300%) invert(60%);
+}
+20% { filter:hue-rotate(100deg) saturate(300%) brightness(100%) invert(70%);
+}
+30% { filter:hue-rotate(100deg) saturate(200%) brightness(100%)invert(80%);
+}
+40% { filter:hue-rotate(100deg) saturate(100%) brightness(100%)invert(90%);
+}
+50% { filter:hue-rotate(100deg)saturate(500%) brightness(100%)invert(100%);
+}
+60% { filter:hue-rotate(100deg)saturate(100%) brightness(100%)invert(100%);
+}
+70% { filter:hue-rotate(100deg)saturate(200%) brightness(100%)invert(100%);
+}
+80% { filter:hue-rotate(100deg)saturate(300%) brightness(100%)invert(100%);
+}
+90% { filter:hue-rotate(100deg)saturate(100%) brightness(100%)invert(100%);
+}
+100% { filter:hue-rotate(100deg)saturate(150%) brightness(100%)invert(0%);
+}
+}
+
+.perspectiveisafuck{
+  perspective:40px;
+}
+.perspectivefuckimg{
+  animation: move20 40s linear infinite;
+}
+@keyframes move20 {0% {
+  transform: rotateX(100deg) translateY(70px);
+}
+20% {
+  transform: rotateX(400deg) translateY(100px);
+}
+40% {
+  transform: rotateX(200deg) translateY(30px);
+}
+60% {
+  transform: rotateX(10deg) translateY(300px);
+}
+80% {
+  transform: rotateX(260deg) translateY(180px);
+}
+100% {
+  transform: rotateX(100deg) translateY(70px);
+}}
+
+.words{ font-size: 20px;
+color:black;
+text-shadow:
+    4px 5px 6px white,
+    0 0 1em aliceblue,
+    0 0 0.2em aliceblue;
+    font-family: "Chalkduster", fantasy;
+   position: sticky;
+   z-index:100;
+   animation: fly-ball 5s  infinite;
+}
+
+@keyframes fly-ball {
+  0% {
+  transform: translateX(150px) translateY(50px);
+  }
+  25% {
+  transform: translateX(100px) translateY(25px);
+  }
+  50%
+  {
+  transform: translateX(90px) translateY(6px);
+  }
+  75% 
+  {
+  transform: translateX(30px) translateY(100px);
+  }
+100% {
+  transform: translateX(300px) translateY(100px);
+  }}
+.thefullthing{
+
+z-index: 15;
+  position: absolute;
+  flex-wrap: nowrap;
+  background-repeat: repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+ filter:invert(100%);
+ animation: blurtime1 5s 0s linear infinite;
+
+  
+}
+@keyframes blurtime1{
+  0% {filter:blur(0px) ;transform:scale(-1, 1);}
+  25% {filter:blur(1px); transform: scale(0.25,-1); }
+  50% {filter:blur(6px); transform: scale(0.25,-1);}
+  75% {filter:blur(20px);transform: scale(-0.25,1);}
+  100%{filter:blur(15px);transform: scale(-0.25,1);}
+  
+}
+.thefullthing4{animation: blurtime8 2s 0s linear infinite;
+
+  
+}
+@keyframes blurtime8{
+  0% {filter:blur(15px) ;transform:scale(-1, 1) skew(10deg, 40deg);}
+  25% {filter:blur(20px); transform: scale(0.25,-1) skew(40deg,50deg); }
+  50% {filter:blur(30px); transform: scale(0.25,-1) skew(60deg, 80deg);}
+  75% {filter:blur(2px);transform: scale(-0.25,1) skew(100deg, 300deg);}
+  100%{filter:blur(1px);transform: scale(-0.25,1) skew(200deg,10deg);}
+  
+}
+.opaque{
+  background-repeat: no-repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+  filter:opacity(30%);}
+  
+.yo{
+border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('images/background/this.png') 50 round;
+  
+  filter:invert(100%);
+  animation: skew_shift8 15s 0s linear infinite;
+  z-index: 15;
+  position: fixed;;
+}
+@keyframes skew_shift8 {
+  0% { transform:scale(-1, 1);}
+  
+  50% {transform: scale(0.25,-1);}
+  
+  100% { transform: scale(-0.25,1);} }
+  
+
+.yo2{
+border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('images/gallery/pack.jpeg') 50 round;
+  transform: skew(50deg, 45deg);
+  flex-wrap:wrap;
+}
+.yoinside2{
+  transform: scale(-1,.25);
+  filter:invert(100%);
+}
+.yo3{
+  transform: skew(15deg, 15deg);
+}
+.yo4{  transform: skew(2deg, 60deg);
+}
+.yo10{
+animation: scale_shift1 5s 0s linear infinite;
+padding:1px;
+z-index:1;
+}
+
+
+@keyframes scale_shift1 {
+  0% {transform: scale(1,1); transform: skew(10deg,50deg);}
+  
+  50% {transform: scale(.75,.6);transform:skew(40deg, 10deg);}
+  
+  100% {transform: scale(1,1);transform: skew(10deg,50deg);}}
+  .yoyoyo{ position:absolute;
+  top:300px;
+  left:50%;
+  filter:invert(100%);
+  z-index:0;
+  animation: skew_shift5 6s 0s linear infinite;
+  
+}
+@keyframes skew_shift5 {
+  0% { transform: translate(50px, 100px);}
+  
+  50% {transform: translate(30px,40px );}
+  
+  100% { transform: translate(30px,200px);} }
+  .yoyo10{ position:absolute;
+  top:700px;
+  left:10%;
+  filter:invert(100%);
+  z-index:0;
+  animation: skew_shift4 15s 0s linear infinite;
+  
+}
+@keyframes skew_shift4 {
+  0% { transform:scale(1, 1);}
+  
+  50% {transform: scale(0.5,1);}
+  
+  100% { transform: scale(-0.25,1);} }
+  
+  .thefullthing2{ 
+z-index: 25;
+    background-repeat: no-repeat;
+background-attachment: fixed; 
+  background-size: 100% 100%;
+  filter:invert(65%);}
+  .fuckoff{
+    animation: skew_shift5 6s 0s linear infinite;
+  color:white;
+}
+@keyframes skew_shift5 {
+  0% { transform: translate(50px, 100px);}
+  
+  50% {transform: translate(30px,40px );}
+  
+  100% { transform: translate(30px,200px);} }
+  .yomama3{
+    perspective:10px;
+  }
+  .yomama{
+
+    transform:rotateX(17deg);
+    animation: move6 10s linear infinite;
+  }
+  @keyframes move6{ 0% {transform: translateY(2000px) translateX(10px);
+  }
+  100%{ transform:translateY(-15000px) translateX(1000px);}}
+.words22{
+  text-align:right;
+  font-size:40px;
+  position:absolute;
+  z-index: 10;
+  background-image:url('images/background/salt.png');
+  font-family: "Impact" , fantasy;
+animation: move4 10s linear infinite;
+  }
+  @keyframes move4{ 0% {transform: translateY(500px);}
+   20% { transform:translateY(50px);}
+    40% { transform:translateY(1000px);}
+     60% { transform:translateY(500px);}
+      80% { transform:translateY(30px);}
+  100%{ transform:translateY(-500px);}}
+  .thefullthing3{ position:absolute;
+  
+  }

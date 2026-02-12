@@ -1,18 +1,28 @@
 body{
-  background-image:url('images/utube/google.jpg');
+  background-image:url('gifs/gif1.gif');
   background-size: 100% 100%;
   
     margin:0px;
 }
+@font-face{
+  font-family: "4thfont";
+  
+ src: url('fonts/Wizards Magic.ttf');}
+ 
 .mood{
-  color:white;
+  color:black;
+  font-family: "4thfont";
+  text-align:center;
+  background-image:url('gifs/gif2.gif');
+  text-shadow: 1px 1px 1px white, 0 0 1em black, 0 0 0.2em white;
+  font-size:28px;
 }
 .first-stretch{
 text-align:center;
 border: 32px solid transparent;
    padding:0px;
   
-   border-image:url('images/banner/witch maiden 5.png') 24 round;
+   border-image:url('gifs/gif4.gif') 30 round;
 
 
   
